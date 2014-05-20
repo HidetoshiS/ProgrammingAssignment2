@@ -5,7 +5,7 @@
 
 makeCacheMatrix <- function(x = matrix()) {
   s <- NULL  # initialization
-  set <- function(y) { # Set a matrix and initialoze 's'. (s:aninversion matrix)
+  set <- function(y) { # Set a matrix and initialoze 's' (s:aninversion matrix)
     x <<- y
     s <<- NULL
   }
